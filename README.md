@@ -17,7 +17,7 @@ For our Queue data structure assignment.
 
 ## Installation
 
-1. **Download the ZIP File**: Download the zipped file containing the application and its dependencies.
+1. **Download the ZIP File**: [Download the application](ConcertTicketingSystem.zip).
 
 2. **Extract the ZIP File**: Extract the contents of the ZIP file to a directory of your choice.
 
