@@ -133,7 +133,8 @@ void MainWindow::autoDequeue()
                                                "padding: 5px; color: white;"
                                                "font-weight: bold;"
                                                "border: 2px solid black;"
-                                               "border-radius: 10px;");
+                                               "border-radius: 10px;"
+                                               "font-size: 15px;");
 
         updateQueueListWidget();
 
@@ -147,7 +148,8 @@ void MainWindow::autoDequeue()
                                            "padding: 5px; color: white;"
                                            "font-weight: bold;"
                                            "border: 2px solid black;"
-                                           "border-radius: 10px;");
+                                           "border-radius: 10px;"
+                                           "font-size: 15px;");
         // Reset the timer
         timeRemaining = currentInterval;
         ui->lcdNumberTimer->display(timeRemaining);
@@ -157,7 +159,8 @@ void MainWindow::autoDequeue()
                                                "padding: 5px; color: white;"
                                                "font-weight: bold;"
                                                "border: 2px solid black;"
-                                               "border-radius: 10px;");
+                                               "border-radius: 10px;"
+                                               "font-size: 15px;");
     }
 }
 
