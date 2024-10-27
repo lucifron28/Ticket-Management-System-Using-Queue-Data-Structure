@@ -17,7 +17,7 @@ For our Queue data structure assignment.
 
 ## Installation
 
-1. **Download the ZIP File**: [Download the application](ConcertTicketingSystem.zip).
+1. **Download the ZIP File**: [Download the application](https://github.com/lucifron28/Ticket-Management-System-Using-Queue-Data-Structure/blob/main/Cada-Queue.zip).
 
 2. **Extract the ZIP File**: Extract the contents of the ZIP file to a directory of your choice.
 
