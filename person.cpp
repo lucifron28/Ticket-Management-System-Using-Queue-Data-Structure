@@ -10,3 +10,7 @@ QString Person::getName() const {
 int Person::getTicketNumber() const {
     return ticket_number;
 }
+
+QString Person::getFormattedTicketNumber() const {
+    return QString("%1").arg(ticket_number, 3, 10, QChar('0'));
+}

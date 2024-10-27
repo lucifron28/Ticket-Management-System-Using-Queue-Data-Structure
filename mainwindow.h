@@ -28,10 +28,10 @@ private slots:
     void on_enQueue_clicked();
     void autoDequeue();
     void updateTimer();
-
     void on_action10s_triggered();
     void on_action30s_triggered();
     void on_action60s_triggered();
+    void on_searchTextChanged(const QString &text); // Add this line
 
 private:
     Ui::MainWindow *ui;
@@ -45,6 +45,7 @@ private:
     int ticketCounter;
 
     void updateQueueListWidget();
+    void updateFilteredQueueListWidget(const QString &filter); // Add this line
 };
 
 #endif // MAINWINDOW_H

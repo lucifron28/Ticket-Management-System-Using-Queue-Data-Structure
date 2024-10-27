@@ -9,6 +9,7 @@ public:
 
     QString getName() const;
     int getTicketNumber() const;
+    QString getFormattedTicketNumber() const; // Add this line
 
 private:
     QString name;
