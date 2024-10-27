@@ -20,7 +20,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     ui->lineEditSearch->setPlaceholderText("Search Name or Ticket");
     ui->lineEditName->setPlaceholderText("Enter your name");
-
+    ui->labelQueueSize->setText(QString("%1").arg(ticketQueue.size()));
     setWindowTitle("Olivia Rodrigo Concert Ticketing System");
     setWindowIcon(QIcon(":/new/img/icon.jpg"));
 
@@ -119,7 +119,7 @@ void MainWindow::on_enQueue_clicked()
     Person person(name, ticket_number);
     ticketQueue.enqueue(person);
     ui->labelTicketAdded->setText(QString("%1 added (#%2)").arg(person.getName()).arg(person.getFormattedTicketNumber()));
-
+    ui->labelQueueSize->setText(QString("%1").arg(ticketQueue.size()));
     updateQueueListWidget();
 }
 
@@ -162,6 +162,7 @@ void MainWindow::autoDequeue()
                                                "border-radius: 10px;"
                                                "font-size: 15px;");
     }
+    ui->labelQueueSize->setText(QString("%1").arg(ticketQueue.size()));
 }
 
 void MainWindow::updateTimer()
